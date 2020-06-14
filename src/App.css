@@ -1,38 +1,293 @@
-.App {
+.App{
+  font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold';
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding:0 0 2.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light'
+}
+
+.container-fluid-nav {
+  padding: 3% 15% 0;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+
+
+
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color:  #ff4c68;
+}
+
+/* Testimonials Section */
+
+
+
+#testimonials {
+  text-align: center;
+  background-color:  #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section */
+
+#press {
+  background-color:  #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pricing-column {
+  padding: 3% 2%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 1208px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.today {
+  font-family: 'Montserrat-black';
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.copyright {
+  color: #8f8f8f;
+}
+
+.iconic {
+  margin: 20px 15px;
+}
+
+.facebook{
+  color: blue;
+}
+
+.insta{
+  color: #fb3958;
+}
+
+.mail{
+  color: #B23121;
+}
+
+/* Login */
+
+.loginDiv {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -ms-flex-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 40px;
+  padding-bottom: 240px;
+  background-image: url(https://www.transparenttextures.com/patterns/cubes.png);
+  background-color: #ff4c68;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
 }
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle {
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.forgotLink {
+  color: black;
+}
+
+
+/* Register */
+
+.registerDiv {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  background-image: url(https://www.transparenttextures.com/patterns/cubes.png);
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+/* Image */
+
+.breedDiv {
+  background-color: #ff4c68;
+  text-align: center;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 40%;
+}
+
+.breedImage {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.breedString {
+  margin-top: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+
